@@ -16,9 +16,8 @@ if __name__ == '__main__':
     client = client.Client(url_app)
 
     # Instance Session
-    user_email = "producto+runahr-api-dev-pr-1501@runahr.com"
-    password = "runahr"
-    subdomain = "runahr-api-dev-pr-1501"
+    user_email = "replace_with_eamil
+    subdomain = "replace_with_subdomain"
     
     session = session.Session('/sessions', user_email, password, subdomain, client)
 
